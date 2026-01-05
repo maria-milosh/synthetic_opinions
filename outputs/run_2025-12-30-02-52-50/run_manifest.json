@@ -1,0 +1,10 @@
+{
+  "run_id": "317f6edc-52b4-419c-9108-1580337b91ce",
+  "created_at_utc": "2025-12-30T02:52:50.389262+00:00",
+  "model": "gpt-4.1-mini",
+  "temperature": 0.8,
+  "max_output_tokens": 600,
+  "n_personas": 30,
+  "template_path": "prompt_template.txt",
+  "personas_path": "personas.jsonl"
+}
