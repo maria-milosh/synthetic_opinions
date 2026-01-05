@@ -7,7 +7,7 @@ The core use case is to study how exposure to others’ arguments (cross-pollina
 ---
 
 ## Project structure
-
+```
 .
 ├── personas.jsonl # Synthetic participant personas
 ├── prompt_template.txt # Prompt template with placeholders
@@ -18,7 +18,7 @@ The core use case is to study how exposure to others’ arguments (cross-pollina
 │ ├── embeddings_*.jsonl # Embeddings for different text fields
 │ └── similarity_plots/ # Distance plots
 └── README.md
-
+```
 
 ---
 
@@ -83,5 +83,7 @@ These distances can be used to:
 + validate that embeddings capture stance
 + design cross-pollination exposure rules
 + define “ideological distance” quantitatively
+
+___
 
 Set API key: `export OPENAI_API_KEY="your_key_here"`
